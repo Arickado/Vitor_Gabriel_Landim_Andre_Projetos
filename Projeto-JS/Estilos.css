@@ -1,0 +1,91 @@
+.marca 
+{
+    text-align: center ; 
+    color: #96858F ;
+}
+.voltar
+{
+    color:#E37222;
+}
+.chamada
+{
+    color: #99D3DF;
+}
+.produtos
+{
+    color: #002366;
+}
+.center
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
+table
+{
+    border: 5px solid tan;
+}
+td 
+{
+    padding: 3px;
+    border: 1px solid tan;
+    text-align: center;
+}
+td a
+{
+    display: block;
+}
+td:hover
+{
+    background-color: #99D3DF;
+}
+.li
+{
+    width: 20%;
+}
+.li:hover
+{
+    background-color: #99D3DF;
+}
+.Div1
+{
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    text-align: center; 
+    color: #002366;
+}
+.Div2
+{
+    text-align: center; 
+    color: #99D3DF;
+}
+.DivForm
+{
+    text-align: center; 
+    color: #002366;
+}
+input
+{
+background-color: #99D3DF; 
+color: #002366;
+}
+.enviar
+{
+   background-color: #002366; 
+   color: #99D3DF; 
+   padding: 5px 7px; 
+   text-transform: uppercase;
+}
+.enviar:hover
+{
+    background-color: #E37222; 
+    color: #002366;
+}
+.price
+{
+    background-color: #E37222; 
+    color: black; 
+    padding: 3px 5px; 
+    text-transform: uppercase;
+}
