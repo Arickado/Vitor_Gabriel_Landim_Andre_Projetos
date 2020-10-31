@@ -4,16 +4,24 @@
     <meta charset="UTF=8">
     <title>Pagina Inicial</title>
     <link rel="stylesheet" type="text/css" href="./Estilos.css">
+    <script src="./script.js"></script>
     </head>
     <body>
         <h1 class="marca">E-letrodomésticos Comércio</h1>
         <a class="voltar"; href="cadastro.html"><b>Cadastre-se aqui</b></a>
         <h2 class="chamada">Bem vindo(a) aqui você irá encontrar uma seleção de produtos disponíveis em nossa loja.</h2>
         <p style="color:tan">Clique na imagem para mais opções de cada seção com detalhes de preços.</p>
-        <a href="Airfryer.html"><div class="produtos li"><img src="./imagens/AirFryer1.png"><b>Air Fryers</b></div></a>
-            <br>
-            <a href="Geladeiras.html"><div class="produtos li"><img src="./imagens/Geladeira 1.png"><b>Geladeiras</b></div></a>
-            <br>
-            <a href="torradeiras.html"><div class="produtos li"><img src="./imagens/Torradeira 1.png"><b>Torradeiras</b></div></a>
+        <div onclick="confirma(this);" class="produtos li menu">
+        <a href="Airfryer.html" onclick="return confirm('Voce selecionou a pagina Air Fryers')">
+            <img src="./imagens/AirFryer1.png"><b><p>Air Fryers</p></b></a>
+        </div>
+        <div onclick="confirma(this);" class="produtos li menu">
+        <a href="Geladeiras.html" onclick="return confirm('Voce selecionou a pagina Geladeiras')">
+            <img src="./imagens/Geladeira 1.png"><b><p>Geladeiras</p></b></a>
+        </div>
+        <div class="produtos li menu">
+        <a href="torradeiras.html" onclick="return confirm('Voce selecionou a pagina Torradeiras')">
+            <img src="./imagens/Torradeira 1.png"><b><p>Torradeiras</p></b></a>
+        </div>
     </body>
 </html>

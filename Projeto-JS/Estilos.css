@@ -11,6 +11,10 @@
 {
     color: #99D3DF;
 }
+.menu
+{
+    text-align: center;
+}
 .produtos
 {
     color: #002366;
@@ -41,6 +45,8 @@ td:hover
 }
 .li
 {
+    float: left;
+    margin-right: 5px;
     width: 20%;
 }
 .li:hover
@@ -88,4 +94,8 @@ color: #002366;
     color: black; 
     padding: 3px 5px; 
     text-transform: uppercase;
+}
+.legenda 
+{
+    visibility: hidden;
 }
