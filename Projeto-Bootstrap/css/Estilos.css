@@ -1,0 +1,142 @@
+.marca 
+{
+    text-align: center ; 
+    color: #96858F ;
+}
+.voltar
+{
+    color:#E37222;
+}
+.cadastro
+{
+    color:#E37222;
+    text-decoration: none;
+    position: absolute;
+    right: 0.5%;
+}
+.cadastro:hover
+{
+    text-decoration: underline;
+}
+.login
+{
+    color:#E37222;
+    text-decoration: none;
+    position: absolute;
+    left: 0.5%;
+}
+.login:hover
+{
+    text-decoration: underline;
+}
+.estoque
+{
+    color:#E37222;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+}
+.estoque:hover
+{
+    text-decoration: underline;
+}
+.chamada
+{
+    color: #99D3DF;
+}
+.menu
+{
+    text-align: center;
+}
+.produtos
+{
+    color: #002366;
+}
+.center
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
+table
+{
+    border: 5px solid tan;
+}
+td 
+{
+    padding: 3px;
+    border: 1px solid tan;
+    text-align: center;
+}
+td a
+{
+    display: block;
+}
+td:hover
+{
+    background-color: #99D3DF;
+}
+.li
+{
+    float: left;
+    margin-right: 5px;
+    width: 20%;
+}
+.li:hover
+{
+    background-color: #99D3DF;
+}
+.Div1
+{
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    text-align: center; 
+    color: #002366;
+}
+.Div2
+{
+    text-align: center; 
+    color: #99D3DF;
+}
+input
+{
+background-color: #99D3DF; 
+color: #002366;
+}
+.enviar
+{
+   background-color: #002366; 
+   color: #99D3DF; 
+   padding: 5px 7px; 
+   text-transform: uppercase;
+}
+.enviar:hover
+{
+    background-color: #E37222; 
+    color: #002366;
+}
+.price
+{
+    background-color: #E37222; 
+    color: black; 
+    padding: 3px 5px; 
+    text-transform: uppercase;
+}
+.legenda 
+{
+    visibility: hidden;
+}
+.label-form
+{
+    font-size: 14pt;
+}
+.container-login
+{
+    border: 1px solid rgba(0,0,0, .3);
+}
+#cadastro
+{
+    visibility: hidden;
+}
