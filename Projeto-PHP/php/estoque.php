@@ -42,6 +42,10 @@
             </div>
         </div>
     </div>
+    <div>
+    <a class="estoque"; href="./pedidos.php"><b>Solicitar produtos</b></a>
+    </div>
+
 <?php
     include_once './includes/footer.php';
 ?>
