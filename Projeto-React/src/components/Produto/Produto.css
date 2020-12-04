@@ -1,0 +1,39 @@
+figure>img {
+    display: block;
+}
+
+figcaption {
+    position: relative;
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12pt;
+    padding: 5px;
+    width: 200px;
+    background-color: #99D3DF;
+    top: -50px;
+    color: rgba(0,0,0, .8);
+    visibility: hidden;
+}
+
+figcaption>p {
+    margin: 3px;
+    padding: 5px;
+}
+
+.produtos
+{
+    color: #002366;
+}
+
+.price
+{
+    background-color: #E37222; 
+    color: black; 
+    padding: 3px 5px; 
+    text-transform: uppercase;
+}
+
+.descricao
+{
+    padding: 3px 5px;
+}
