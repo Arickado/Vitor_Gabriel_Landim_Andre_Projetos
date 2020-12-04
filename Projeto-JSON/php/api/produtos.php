@@ -2,7 +2,7 @@
 
     require_once "../actions/db_connect.php";
 
-    $result = query("SELECT * FROM produtos");
+    $result = mysqli_query($connect,"SELECT * FROM produtos");
     $produtos = [];
     
     while($row = mysqli_fetch_assoc($result)){
