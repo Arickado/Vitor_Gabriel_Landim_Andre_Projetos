@@ -2,7 +2,7 @@ import {useState} from 'react';
 import { Form, Button, Row } from 'react-bootstrap';
 
 export default function Pedidos() {
-    const [ form, setForm ] = useState({
+    const [form, setForm] = useState({
         nome: "",
         endereco: "",
         fone: "",
@@ -12,6 +12,7 @@ export default function Pedidos() {
     });
 
     const controleMudanca = (evento) => {
+        console.log(evento.target.value)
         setForm({
             ...form,
             [evento.target.id]: evento.target.value
@@ -23,11 +24,20 @@ export default function Pedidos() {
         const preco_final = parseFloat(form.valor) * parseFloat(form.quantidade);
         document.getElementById("preco_final").value = `R$ ${preco_final}`;
 
-        const json = JSON.stringify(form);
+        setForm({
+            ...form,
+            preco_final: preco_final
+        })
 
+        const json = JSON.stringify(form);
         const opcoes = {
+            crossDomain: true,
+            mode: 'cors',
             method: 'POST',
-            headers: { 'Content-type' : 'application/json', 'Accept' : 'application/json' },
+            headers: {
+                'Content-Type': 'application/json',
+                'Accept': 'application/json'
+            },
             body: json
         }
 

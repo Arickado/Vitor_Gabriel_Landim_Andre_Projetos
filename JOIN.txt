@@ -1,0 +1,2 @@
+SELECT produtos.preco FROM produtos
+JOIN pedidos ON produtos.preco=pedidos.valor_unit;
