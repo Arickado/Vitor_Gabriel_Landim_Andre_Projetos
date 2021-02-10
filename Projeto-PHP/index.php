@@ -9,6 +9,29 @@
     <script src="./js/script.js"></script>
     </head>
     <body>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.2.6/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.2.6/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyAD2hZvIq0k7i38euCrCTXZjm0XswFikFI",
+    authDomain: "projeto-inicial-71618.firebaseapp.com",
+    projectId: "projeto-inicial-71618",
+    storageBucket: "projeto-inicial-71618.appspot.com",
+    messagingSenderId: "347615612952",
+    appId: "1:347615612952:web:655c8fd9ee0be814a6736d",
+    measurementId: "G-Y897YRTLV6"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
         <h1 class="marca">E-letrodomésticos Comércio</h1>
         <div class="barranav">
         <a class="login"; href="./php/telalogin.php"><b>Login</b></a>

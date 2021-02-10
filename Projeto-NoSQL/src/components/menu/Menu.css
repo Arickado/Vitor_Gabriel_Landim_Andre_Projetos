@@ -1,0 +1,17 @@
+.nav-item {
+    display: flex;
+    justify-content: center;
+}
+
+.active {
+    border-bottom: 2px solid rgba(255, 255, 245, .9);
+    background-color: rgba(150, 133, 143, .5)
+}
+
+.navbar-brand {
+    color: #E37222 !important;
+}
+
+.nav-link {
+    color: #E37222 !important;
+}
