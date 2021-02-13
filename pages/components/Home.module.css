@@ -1,0 +1,15 @@
+.home {
+    display: block;
+    padding: 15px;
+    height: 100px;
+    width: fit-content;
+    background-color: #9f6b6f;
+}
+
+.h1 {
+    color: #43556d;
+}
+
+.p {
+    color: #3e6278;
+}
