@@ -1,1 +1,1 @@
-Adicionado os projetos React-Front-Avançado, React-Back-Avançado e NoSQL
+Adicionado os projetos React-Front-Avançadoo e NoSQL, React Back Avançado em outro repositório
