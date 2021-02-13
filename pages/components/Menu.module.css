@@ -1,0 +1,14 @@
+.nav {
+    display: block;
+    background-color: black;
+}
+
+.navbrand {
+    font-size:large;
+    font-weight: bold;
+    color: chocolate;
+}
+
+.navlink {
+    color: #E37222 !important;
+}
